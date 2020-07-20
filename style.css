@@ -1,0 +1,37 @@
+body {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  #one {
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+  }
+  .first {
+    border: solid 2px black;
+    padding: 15px;
+  }
+  
+  .first.second {
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  p:hover {
+    background-color: #cc3300;
+  }
+  #seven {
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+  }
